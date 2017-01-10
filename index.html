@@ -3,49 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Shopping Cart</title>
-    <style>
-        .container {
-            width: 750px;
-            margin: 0 auto;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .heading {
-            height: 135px;
-            margin: 30px 10px;
-            border-bottom: 1px solid rgba(229, 229, 229, 1);
-        }
-
-        .product-heading {
-            border-bottom: 1px solid rgba(229, 229, 229, 1);
-        }
-
-        .product-heading div {
-            display: inline-block;
-        }
-
-        .inline-block {
-            display: inline-block;
-        }
-
-        .items {
-            width: 400px;
-        }
-
-        .size {
-            width: 100px;
-        }
-
-        .quantity {
-            width: 100px;
-        }
-
-        .price {
-            width: 100px;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
     
@@ -56,7 +14,6 @@
         </header>
 
         <div class="product-list">
-
             <div class="product-heading">
                 <div class="items">3 Items</div>
                 <div class="size">SIZE</div>
@@ -64,7 +21,37 @@
                 <div class="price">PRICE</div>
             </div>
 
+            <div class="product">
+                <div class="items inline-block">
+                    <div class="image inline-block">
+                        <img src="assets/images/T1.jpg" alt="">
+                    </div>
+                    
+                    <div class="details">
+                        <div class="inline-block">
+                            <h4 class="product-title uppercase">solid green cotton t-shirt</h4>
+                            <div>Style #: MS13k56789</div>
+                            <div>Colour: Blue</div>
+                        </div>
+
+                        <div class="controls uppercase">
+                            <span>edit</span>
+                            <span>remove</span>
+                            <span>save for later</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="size inline-block">
+                    
+                </div>
+                <div class="quantity inline-block">QTY</div>
+                <div class="price inline-block">PRICE</div>
+            </div>
+
         </div>
+
+
 
     </div>
     

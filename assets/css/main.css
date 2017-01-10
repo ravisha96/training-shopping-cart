@@ -1,0 +1,59 @@
+.container {
+    width: 750px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    height: 135px;
+    margin: 30px 10px;
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+
+.product-heading {
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+
+.product-heading div{
+    display: inline-block;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.product .details{
+    float: right;
+    width: 225px;
+    font-size: 12px;
+}
+
+.product .controls {
+    margin-top: 50px;
+}
+
+.product .controls span{
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.items {
+    width: 400px;
+}
+
+.size {
+    width: 100px;
+}
+
+.quantity {
+    width: 100px;
+}
+
+.price {
+    width: 100px;
+}

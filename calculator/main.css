@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    zoom: 1.3;
+}
+
+
+.btn-container {
+    margin-bottom: 5px;
+}
+
+.result {
+    border: 1px solid #ffb300;
+    width: 136px;
+}
+
+button {
+    background-color: white;
+    border-color: white;
+    border: 1px solid #ffb300;
+    width: 25px;
+}
+
+.enter {
+    width: 137px;
+}
